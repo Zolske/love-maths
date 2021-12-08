@@ -27,7 +27,7 @@ body {
     width: 85%;
     /* height: 65vh; */
     /* max-height: 450px; */
-    max-width: 830px;
+
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
@@ -37,7 +37,6 @@ body {
     width: 50%;
     font-size: 2rem;
     margin: auto;
-    /* padding: 50px 0; */
 }
 
 .question-area span {
@@ -105,8 +104,8 @@ body {
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     font-size: 3.2rem;
     margin: 0 30px 50px 30px;
     transition: all 0.5s;
@@ -117,7 +116,7 @@ body {
     font-size: 1rem;
     color: #445361;
     position: relative;
-    top: -2rem;
+    top: -1.3rem;
     left: -26px;
 }
 
