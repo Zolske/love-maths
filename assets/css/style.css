@@ -25,8 +25,8 @@ body {
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
-    max-height: 450px;
+    /* height: 65vh; */
+    /* max-height: 450px; */
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ body {
     width: 50%;
     font-size: 2rem;
     margin: auto;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 .question-area span {
@@ -77,6 +77,7 @@ body {
     height: 40px;
     width: 80px;
     font-size: 1.2rem;
+    margin: -40px 0 40px 0;
 }
 
 .scores {
@@ -107,7 +108,7 @@ body {
     width: 100px;
     height: 100px;
     font-size: 3.2rem;
-    margin: 0 30px;
+    margin: 0 30px 50px 30px;
     transition: all 0.5s;
 }
 
@@ -116,7 +117,8 @@ body {
     font-size: 1rem;
     color: #445361;
     position: relative;
-    left: -0.5em;
+    top: -2rem;
+    left: -26px;
 }
 
 .btn--blue {
@@ -164,10 +166,10 @@ body {
 }
 
 .btn--gray {
-    margin-top: 25px;
     background-color: #445361;
     border: 1px transparent;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .btn--gray:active,
