@@ -13,4 +13,4 @@ I have slightly changed the layout of the side and changed the implementation of
 #### On line 114 in the style.css,  
 `.btn--big::after {content: attr(data-type); ... }`  
 is attached after the button with the class of "btn--big" and styled with css *(difficult to center / align on page)*.  
-*(see [w3schools.com](https://www.w3schools.com/tags/att_data-.asp) for more details)
+*(see [w3schools.com](https://www.w3schools.com/tags/att_data-.asp) for more details)*
